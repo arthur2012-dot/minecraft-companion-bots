@@ -1,0 +1,27 @@
+{
+  "name": "minecraft-companion-bots",
+  "version": "1.0.0",
+  "description": "Companion bots for Minecraft Java Edition LAN worlds - runs fully on Android via Termux using phone memory",
+  "main": "src/bot-manager.js",
+  "scripts": {
+    "start": "node src/bot-manager.js",
+    "web": "node src/web-server.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.20.1",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-collectblock": "^1.4.1",
+    "mineflayer-pvp": "^1.3.2",
+    "mineflayer-armor-manager": "^2.0.1",
+    "mineflayer-tool": "^1.2.0",
+    "express": "^4.21.0",
+    "ws": "^8.18.0",
+    "vec3": "^0.1.10"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["minecraft", "mineflayer", "bots", "android", "termux", "lan"],
+  "author": "Arthur Batista Lucas",
+  "license": "MIT"
+}
